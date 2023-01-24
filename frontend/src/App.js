@@ -11,9 +11,9 @@ import CartScreen from './screens/CartScreen';
 import ShippingScreen from './screens/ShippingScreen';
 import ProfileScreen from './screens/ProfileScreen';
 import PaymentScreen from './screens/PaymentScreen';
-import PlaceOrderScreen from './screens/OrderScreen';
-import NotFound from './screens/NotFound';
+import PlaceOrderScreen from './screens/PlaceOrderScreen';
 import OrderScreen from './screens/OrderScreen';
+import NotFound from './screens/NotFound';
 
 const App = () => {
   return (
