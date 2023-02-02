@@ -6,8 +6,11 @@ import Message from '../components/LoadingError/Error';
 import axios from 'axios';
 
 const SingleProduct = () => {
+
   let { id } = useParams();
+  
   const [product, setProduct] = useState({});
+  
 
   useEffect(() => {
     const fetchproduct = async () => {

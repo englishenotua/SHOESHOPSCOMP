@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Rating = ({ value, text }) => {
+const Rating = ({ value = 5, text }) => {
   return (
     <div className="rating">
       <i
