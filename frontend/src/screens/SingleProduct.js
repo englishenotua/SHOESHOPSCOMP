@@ -6,9 +6,8 @@ import Message from '../components/LoadingError/Error';
 import axios from 'axios';
 
 const SingleProduct = () => {
-  const [product, setProduct] = useState({});
-
   let { id } = useParams();
+  const [product, setProduct] = useState({});
 
   useEffect(() => {
     const fetchproduct = async () => {
@@ -16,7 +15,7 @@ const SingleProduct = () => {
       setProduct(data);
     };
     fetchproduct();
-  }, []);
+  }, [id]);
   return (
     <>
       <Header />
