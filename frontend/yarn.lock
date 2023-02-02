@@ -7657,6 +7657,11 @@ redent@^3.0.0:
     indent-string "^4.0.0"
     strip-indent "^3.0.0"
 
+redux-devtools-extension-sol@2.13.2:
+  version "2.13.2"
+  resolved "https://registry.yarnpkg.com/redux-devtools-extension-sol/-/redux-devtools-extension-sol-2.13.2.tgz#ebaaee53243d39a2cdbd699453f45ebaef881a1c"
+  integrity sha512-pMYv9Vkd5t5W9LLtAz1taxxeOuHkiqgGEzJGkZUEu0euPfjB+F+ui1TwyDiiCXN0OMIOLVqLhiykz5bgkJuDSw==
+
 redux-thunk@2.4.2:
   version "2.4.2"
   resolved "https://registry.yarnpkg.com/redux-thunk/-/redux-thunk-2.4.2.tgz#b9d05d11994b99f7a91ea223e8b04cf0afa5ef3b"

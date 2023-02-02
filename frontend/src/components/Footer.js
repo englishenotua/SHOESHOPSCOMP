@@ -7,20 +7,29 @@ const Footer = () => {
         <div className="card-name">
           <img
             alt="mastercard"
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/MasterCard_Logo.png"
+            src="https://vsememy.ru/wp-content/cache/thumb/6736aabfc_320x200.jpg"
           />
         </div>
         <div className="card-name">
-          <img alt="visa" src="https://upload.wikimedia.org/wikipedia/commons/4/41/Visa_Logo.png" />
+          <img
+            alt="visa"
+            src="https://s1.iconbird.com/ico/2013/11/493/w256h2561384699878paymentcard.png"
+          />
         </div>
         <div className="card-name">
-          <img alt="paypal" src="https://pbs.twimg.com/media/EfTZlEnWAAMn1lx.png" />
+          <img
+            alt="paypal"
+            src="https://s1.iconbird.com/ico/2013/7/392/w256h1641373272981PaypalPaymentIcon.png"
+          />
         </div>
         <div className="card-name">
-          <img alt="express" src="https://pbs.twimg.com/media/EfTZlEnWAAMn1lx.png" />
+          <img alt="express" src="https://cdn-icons-png.flaticon.com/512/349/349228.png" />
         </div>
         <div className="card-name">
-          <img alt="discover" src="https://pbs.twimg.com/media/EfTZlEnWAAMn1lx.png" />
+          <img
+            alt="discover"
+            src="https://cdn.icon-icons.com/icons2/2341/PNG/512/discover_payment_method_card_icon_142741.png"
+          />
         </div>
       </div>
     </div>

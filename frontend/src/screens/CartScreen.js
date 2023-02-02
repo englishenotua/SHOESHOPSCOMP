@@ -40,7 +40,7 @@ const CartScreen = () => {
               <h4>Nike Girls Shoe</h4>
             </Link>
           </div>
-          <div className="cart-qtv col-md-2 col-sm-5 mt-md-5 mt-3 mt-md-0 d-flex">
+          <div className=" ит  col-md-2 col-sm-5 mt-md-5 mt-3 mt-md-0 d-flex">
             <h6>QUANTITY</h6>
             <select>
               <option>1</option>
