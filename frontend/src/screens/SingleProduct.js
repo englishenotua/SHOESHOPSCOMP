@@ -1,12 +1,22 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import Header from '../components/Header';
 import Rating from '../components/homeComponents/Rating';
-import { Link } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 import Message from '../components/LoadingError/Error';
-import products from '../data/Products';
+import axios from 'axios';
 
-const SingleProduct = ({ match }) => {
-  const product = products.find((p) => p._id === match.params.id);
+const SingleProduct = () => {
+  const [product, setProduct] = useState({});
+
+  let { id } = useParams();
+
+  useEffect(() => {
+    const fetchproduct = async () => {
+      const { data } = await axios.get(`/api/products/${id}`);
+      setProduct(data);
+    };
+    fetchproduct();
+  }, []);
   return (
     <>
       <Header />
@@ -94,19 +104,17 @@ const SingleProduct = ({ match }) => {
                 <textarea row="3" className="col-12 bg-light p-3 mt-2 border-0 rounded"></textarea>
               </div>
               <div className="my-3">
-                <button className='col-12 bg-black border-0 p-3 rounded text-white'>
-                    SUBMIT
-                </button>
+                <button className="col-12 bg-black border-0 p-3 rounded text-white">SUBMIT</button>
               </div>
             </form>
-            <div className='my-3'>
-                <Message variant={"alert-warning"}>
-                    Please{" "}
-                    <Link to="/login">
-                        " <strong>Login</strong> "
-                    </Link>{" "}
-                    to write a review{" "}
-                </Message>
+            <div className="my-3">
+              <Message variant={'alert-warning'}>
+                Please{' '}
+                <Link to="/login">
+                  " <strong>Login</strong> "
+                </Link>{' '}
+                to write a review{' '}
+              </Message>
             </div>
           </div>
         </div>

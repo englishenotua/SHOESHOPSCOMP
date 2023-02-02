@@ -18,7 +18,7 @@ const PlaceOrderScreen = () => {
             <div className="row">
               <div className="col-md-4 center">
                 <div className="alert-success order-box">
-                  <i class="fas fa-user"></i>
+                  <i className="fas fa-user"></i>
                 </div>
               </div>
               <div className="col-md-8 center">
@@ -119,9 +119,9 @@ const PlaceOrderScreen = () => {
               </tbody>
             </table>
             <button type="submit" onClick={placeOrderHandler}>
-                <Link to="/order" className="text-white">
-                    PLACE ORDER
-                </Link>
+              <Link to="/order" className="text-white">
+                PLACE ORDER
+              </Link>
             </button>
             {/* <div className="my-3 col-12">
                 <Message variant="alert-danger">{error}</Message>
