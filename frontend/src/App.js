@@ -17,21 +17,21 @@ import NotFound from './screens/NotFound';
 
 const App = () => {
   return (
-    <Router>
-      <Routes>
-        <Route path="/" element={<HomeScreen />} exact />
-        <Route path="/products/:id" element={<SingleProduct />} />
-        <Route path="/login" element={<Login />} />
-        <Route path="/register" element={<Register />} />
-        <Route path="/profile" element={<ProfileScreen />} />
-        <Route path="/cart/:id?" element={<CartScreen />} />
-        <Route path="/shipping" element={<ShippingScreen />} />
-        <Route path="/payment" element={<PaymentScreen />} />
-        <Route path="/placeorder" element={<PlaceOrderScreen />} />
-        <Route path="/order" element={<OrderScreen />} />
-        <Route path="*" element={<NotFound />} />
-      </Routes>
-    </Router>
+      <Router>
+        <Routes>
+          <Route path="/" element={<HomeScreen />} exact />
+          <Route path="/products/:id" element={<SingleProduct />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/register" element={<Register />} />
+          <Route path="/profile" element={<ProfileScreen />} />
+          <Route path="/cart/:id?" element={<CartScreen />} />
+          <Route path="/shipping" element={<ShippingScreen />} />
+          <Route path="/payment" element={<PaymentScreen />} />
+          <Route path="/placeorder" element={<PlaceOrderScreen />} />
+          <Route path="/order" element={<OrderScreen />} />
+          <Route path="*" element={<NotFound />} />
+        </Routes>
+      </Router>
   );
 };
 

@@ -507,9 +507,14 @@ shoptext h3 {
   position: relative;
 }
 
+.cart-buttons a:nth-child(1) button {
+  background-color: #000000;
+  color: white;
+}
 
-
-
+.text-white {
+  color: #000000;
+}
 
 
 
