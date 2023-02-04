@@ -6,6 +6,7 @@ import Message from '../components/LoadingError/Error';
 import { useDispatch, useSelector } from 'react-redux';
 import { listProductDetails } from './../Redux/Actions/ProductActions';
 import Loading from '../components/LoadingError/Loading';
+import { addToCart } from './../Redux/Actions/CartActions';
 
 const SingleProduct = ({ history, match }) => {
   const [qty, setQty] = useState(1);
@@ -66,7 +67,6 @@ const SingleProduct = ({ history, match }) => {
                     {product.countInStock > 0 ? (
                       <>
                         <div className="flex-box d-flex justify-content-between align-items-center">
-                          <h6>Quantity</h6>
                           <select value={qty} onChange={(e) => setQty(e.target.value)}>
                             {[...Array(product.countInStock).keys()].map((x) => (
                               <option key={x + 1} value={x + 1}>
