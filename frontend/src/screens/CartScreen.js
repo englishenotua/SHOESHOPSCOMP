@@ -18,7 +18,8 @@ const CartScreen = ({ match }) => {
   const total = cartItems.reduce((a, i) => a + i.qty * i.price, 0).toFixed(2);
 
   const checkOutHandler = () => navigate('/login?redirect=shipping');
-
+  const removeFromCartHandle = () => navigate('/login?redirect=shipping');
+  //TODO
   useEffect(() => {
     if (id) {
       dispatch(addToCart(id, qty));
@@ -52,7 +53,9 @@ const CartScreen = ({ match }) => {
             {/* cartitem */}
             {cartItems.map((item) => (
               <div className="cart-iterm row">
-                <div className="remove-button d-flex justify-content-center align-items-center">
+                <div
+                  onClick={() => removeFromCartHandle()}
+                  className="sphere1 red remove-button d-flex justify-content-center align-items-center">
                   <i className="fas fa-times"></i>
                 </div>
                 <div className="cart-image col-md-3">
