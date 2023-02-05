@@ -56,7 +56,7 @@ const CartScreen = () => {
               <div className="cart-iterm row">
                 <div
                   onClick={() => removeFromCartHandle(item.product)}
-                  className="sphere1 red remove-button d-flex justify-content-center align-items-center">
+                  className="badge red remove-button d-flex justify-content-center align-items-center">
                   <i className="fas fa-times"></i>
                 </div>
                 <div className="cart-image col-md-3">
