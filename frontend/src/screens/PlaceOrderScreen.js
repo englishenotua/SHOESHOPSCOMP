@@ -78,18 +78,18 @@ const PlaceOrderScreen = () => {
                   <h6>Girls Nike shoes</h6>
                 </Link>
               </div>
-              <div className="mt-3 mt-md-0 col-md-2 col-6 d-flex align-items-center">
+              <div className="mt-3 mt-md-0 col-md-2 col-6  d-flex align-items-center flex-column justify-content-center">
                 <h4>QUANTITY</h4>
                 <h6>4</h6>
               </div>
-              <div className="mt-3 mt-md-0 col-md-2 col-5 align-items-end d-flex">
+              <div className="mt-3 mt-md-0 col-md-2 col-6 align-items-end  d-flex flex-column justify-content-center">
                 <h4>SUBTOTAL</h4>
                 <h6>$567</h6>
               </div>
             </div>
           </div>
           {/* total */}
-          <div className="col-lg-3 d-flex align-items-end flex-column mt-5">
+          <div className="col-lg-3 d-flex align-items-end flex-column mt-5 subtotal-order">
             <table className="table table-bordered">
               <tbody>
                 <tr>

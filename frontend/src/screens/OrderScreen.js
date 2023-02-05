@@ -84,13 +84,13 @@ const OrderScreen = () => {
                   <h6>Girls Nike Shoes</h6>
                 </Link>
               </div>
-              <div className="mt-3 mt-md-0 col-6 col-md-2 d-flex align-items-center">
+              <div className="mt-3 mt-md-0 col-md-2 col-6  d-flex align-items-center flex-column justify-content-center">
                 <h4>QUANTITY</h4>
                 <h6>4</h6>
               </div>
-              <div className="mt-3 mt-md-0 col-md-2 col-6 align-items-end d-flex">
+              <div className="mt-3 mt-md-0 col-md-2 col-6 align-items-end  d-flex flex-column justify-content-center">
                 <h4>SUBTOTAL</h4>
-                <h6>$456</h6>
+                <h6>$600</h6>
               </div>
             </div>
           </div>
@@ -125,7 +125,7 @@ const OrderScreen = () => {
               </tbody>
             </table>
             <div className="col-12">
-                <PayPalButton amount={345} />
+              <PayPalButton amount={345} />
             </div>
           </div>
         </div>
