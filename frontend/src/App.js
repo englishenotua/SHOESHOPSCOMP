@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import './menu.css';
 import './responsive.css';
 import 'react-toastify/dist/ReactToastify.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';

@@ -79,12 +79,12 @@ const Header = () => {
                         aria-expanded="false">
                         <i class="fas fa-user"></i>
                       </button>
-                      <div className="dropdown-menu">
+                      <div className="dropdown-menu show">
                         <Link className="dropdown-item" to="/profile">
                           Profile
                         </Link>
 
-                        <Link className="dropdown-item" to="#" onClick={logoutHandler}>
+                        <Link className="dropdown-item" to="/login" onClick={logoutHandler}>
                           Logout
                         </Link>
                       </div>
@@ -170,7 +170,7 @@ const Header = () => {
                         Profile
                       </Link>
 
-                      <Link className="dropdown-item" to="#" onClick={logoutHandler}>
+                      <Link className="dropdown-item" to="/login" onClick={logoutHandler}>
                         Logout
                       </Link>
                     </div>

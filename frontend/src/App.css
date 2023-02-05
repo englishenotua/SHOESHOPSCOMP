@@ -191,20 +191,18 @@ textarea:focus {
   font-size: 12px;
   color: #ebb450;
 }
-
 .rating span {
   margin-left: 10px;
 }
-
 /* END OF SHOP */
 
 /* NEWSLATTER */
 .subscribe-section {
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.226), rgba(0, 0, 0, 0.226)),
-    url("https://sasshoes-com.s3.us-west-2.amazonaws.com/img/banner-uplift-21.jpg") no-repeat scroll center / cover;
+    url("https://sasshoes-com.s3.us-west-2.amazonaws.com/img/banner-uplift-21.jpg")
+      no-repeat scroll center / cover;
   padding: 100px 0 100px;
 }
-
 .subscribe-head h2 {
   color: #fff;
   font-size: 30px;
@@ -275,10 +273,9 @@ textarea:focus {
   font-size: 19px;
   margin-top: 20px;
   margin-bottom: 4px;
-  }
-  
-  .box-info p {
-    font-size: 16px;
+}
+.box-info p {
+  font-size: 16px;
 }
 
 /* SINGLE PRODUCT */
@@ -309,16 +306,13 @@ textarea:focus {
 .display-flex {
   display: flex;
 }
-
 .product-info {
   width: 100%;
 }
-
 .product-dtl p {
   line-height: 24px;
   color: #7a7a7a;
 }
-
 .product-count {
   border: 2px solid #f3f3f3;
   border-radius: 5px;
@@ -330,10 +324,9 @@ textarea:focus {
 }
 .product-count .flex-box h6 {
   font-size: 16px;
-  }
-  
-  .product-count .flex-box span {
-    font-weight: 600;
+}
+.product-count .flex-box span {
+  font-weight: 600;
   color: #000000;
 }
 .product-count .flex-box select {
@@ -385,7 +378,6 @@ textarea:focus {
 .Login input:focus {
   outline: 0px;
 }
-
 .Login button,
 .Login2 button {
   width: 100%;
@@ -397,41 +389,33 @@ textarea:focus {
   text-transform: uppercase;
   color: white;
 }
-
 .Login button a,
 .Login2 button a {
   text-transform: uppercase;
   color: white;
 }
-
 .Login p {
   margin-top: 30px;
 }
-
 .Login p a {
   color: #7a7a7a;
 }
-
 /* PROFILE */
 .author-card {
   position: relative;
 }
-
 .author-card-cover {
   height: 100px;
   width: 100%;
   background-size: cover;
   background-image: url("https://gust.com/assets/blank_slate/Gust_Profile_CoverPhoto_Blank-21edf1e2890708d5a507204f49afc10b7dc58eb7baea100b68a1bc2c96948297.png");
 }
-
 .author-card-profile {
   padding: 20px 10px;
 }
-
 .author-card-avatar {
   padding: 0 20px;
 }
-
 .author-card-avatar img {
   width: 100px;
   height: 100px;
@@ -440,7 +424,6 @@ textarea:focus {
   margin-top: -60%;
   box-shadow: 0px 0px 27px 0px rgba(0, 0, 0, 0.377);
 }
-
 .wizard .nav button {
   padding: 15px 20px;
   font-size: 13px;
@@ -528,19 +511,16 @@ textarea:focus {
   height: 150px;
   object-fit: contain;
 }
-
 .cart-text a h4,
 .cart-price h4 {
   font-size: 17px;
   font-weight: bold;
 }
-
 .cart-text p {
   margin-top: 10px;
   font-size: 15px;
   color: #7a7a7a;
 }
-
 .cart-qty select {
   width: 100%;
   font-size: 15px;
@@ -548,7 +528,6 @@ textarea:focus {
   border: 1px solid #c5c5c5;
   border-radius: 5px;
 }
-
 .cart-qty h6,
 .cart-price h6 {
   margin-bottom: 15px;
@@ -556,7 +535,6 @@ textarea:focus {
   font-size: 13px;
   text-transform: uppercase;
 }
-
 .total {
   margin-top: 50px;
   margin-bottom: 10px;
@@ -585,7 +563,7 @@ textarea:focus {
   text-transform: uppercase;
   font-size: 13px;
   background-color: #1cb803;
-    color: #ffffff;
+  color: #ffffff;
 }
 .cart-buttons a:nth-child(1) button {
   background-color: #000000;
