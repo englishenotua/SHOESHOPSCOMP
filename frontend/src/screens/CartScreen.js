@@ -4,7 +4,7 @@ import { Link, useParams, useLocation, useNavigate } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
 import { addToCart, removefromcart } from './../Redux/Actions/CartActions';
 
-const CartScreen = ({ match }) => {
+const CartScreen = () => {
   window.scrollTo(0, 0);
   const navigate = useNavigate();
   const dispatch = useDispatch();

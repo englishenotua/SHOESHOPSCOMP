@@ -6,9 +6,8 @@ import Message from '../components/LoadingError/Error';
 import { useDispatch, useSelector } from 'react-redux';
 import { listProductDetails } from './../Redux/Actions/ProductActions';
 import Loading from '../components/LoadingError/Loading';
-import { addToCart } from './../Redux/Actions/CartActions';
 
-const SingleProduct = ({ history, match }) => {
+const SingleProduct = () => {
   const [qty, setQty] = useState(1);
   const navigate = useNavigate();
   let { id } = useParams();
@@ -20,11 +19,6 @@ const SingleProduct = ({ history, match }) => {
   useEffect(() => {
     dispatch(listProductDetails(id));
   }, [dispatch, id]);
-
-  // const AddToCartHandle = (e) => {
-  //   e.preventDefault();
-  //   navigate.push(`/cart/${id}?qty=${qty}`);
-  // };
 
   const AddToCartHandle = () => navigate(`/cart/${id}?qty=${qty}`);
 
