@@ -30,7 +30,7 @@ const Login = () => {
   }, [userInfo, history, redirect]);
 
   const submitHandler = (e) => {
-    e.preventDefault();
+    e.preverntDefault();
     dispatch(login(email, password));
   };
 
